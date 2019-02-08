@@ -1,5 +1,4 @@
-spotify-this-song,"I Want it That Way"
-
+Liri bot
 
 Liri is a node.js command line application that takes in parameters and gives back data. The user must enter 'node liri.js' into the command line followed by a command and then a search parameter.
 
