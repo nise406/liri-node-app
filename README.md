@@ -1,16 +1,16 @@
 Liri bot
 
-Liri is a node.js command line application that takes in parameters and gives back data. The user must enter 'node liri.js' into the command line followed by a command and then a search parameter.
+Liri is a node.js command line application that takes in parameters and gives back data. The user must enter 'node liri.js' into the command line followed by a command and then a search.
 
-Possible commands are: 'concert-this', 'spotify-this-song', 'movie-this', or 'do-what-it-says'. The search parameter can be whatever the user is looking for. 
+Possible commands are: 'concert-this', 'spotify-this-song', 'movie-this', or 'do-what-it-says'. 
 
-'concert-this' uses the Bandsintown API to retrieve all upcoming concerts for an artist that is searched. Each venue name, location, and date is provided for all results. 
+'concert-this' uses the Bandsintown API to retrieve all upcoming concerts for an artist that is searched. The venue name, location, and date. 
 
-'spotify-this-song' uses the Spotify API to retrieve data about the song entered in the search parameter. All song titles that contain the search parameter or parts of it are returned. The user will receive the artist, song name, a link to preview the song, and the album name for each result.
+'spotify-this-song' uses the Spotify API to retrieve data about the song entered in the search parameter. The song titles that contain the search parameter or parts of it. The user will receive the artist, song name, a link to preview the song, and the album name.
 
-'movie-this' uses the OMDb API to retreive data about the movie entered in the search parameter. The result will include the title, release year, IMDb rating, Rotten Tomatoes rating, country or countries it was filmed in, langauge, plot, and actors/actresses in the film.
+'movie-this' uses the OMDb API to retreive data about the movie entered in the search parameter. The result will include the title, release year, IMDb rating, country or countries it was filmed in, langauge, plot, and actors/actresses in the movie.
 
-'do-what-it-says' is a command that reads the random.txt file and executes the parameters inside of it. By default it is set to 'spotify-this-song,I Want It That Way', but this can be changed to any of the other commands with any search parameter. 
+'do-what-it-says' is a command that reads the random.txt file and executes the parameters inside of it. By default it is set to 'spotify-this-song,I Want It That Way', but this can be changed to any of the other commands with any search. 
 
 All results are returned in the command line, but also into a separate text file named 'log.txt' as well.
 
