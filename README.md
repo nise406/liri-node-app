@@ -15,3 +15,5 @@ The commands that can be ran  are,  'concert-this', 'spotify-this-song', 'movie-
 
 All results are returned in the command line, but also into a separate text file named 'log.txt' as well.
 
+file:///C:/Users/ander/Pictures/Screenshots/Screenshot%20(64).png
+
