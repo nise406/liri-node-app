@@ -14,3 +14,6 @@ Possible commands are: 'concert-this', 'spotify-this-song', 'movie-this', or 'do
 
 All results are returned in the command line, but also into a separate text file named 'log.txt' as well.
 
+![](images/Screenshot(63).png)
+![](images/Screenshot(64).png)
+![](images/Screenshot(65)png)
